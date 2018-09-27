@@ -1,0 +1,62 @@
+<html>
+    <head>
+      <title>Formulario</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <form id="form1" name="form1" method="post" action="obtener">
+        <table width="201" border="20">
+            <tr> 
+              <td width="73" align="right">Nombre:</td>
+              <td width="118">
+              <label for="usuario"></label>
+              <input name="usuario" type="text" id="usuario" size="15"/>
+              </td>
+              </tr>
+              <tr>
+                <td width="73" align="right">Primer Apellido:</td>
+                <td width="250">
+                  <label for="primer_apellido"></label>
+                  <input name="primer_apellido" type="text" id="primer_apellido" size="15"/>
+               </td>
+               </tr>
+               <tr>
+                   <td width="73" align="right">Segundo Apellido:</td>
+                   <td width="250">
+                   <label for="segundo_apellido"></label>
+                   <input name="segundo_apellido" type="text" id="segundo_apellido" size="15"/>                 </td>
+               </tr>  
+               <tr>
+                <td align="right">Correo:</td>
+                <td>
+                    <label for="Correo"></label>
+                    <input name="correo" type="email" id="correo" size="15"/>
+               </td>
+               </tr>
+               <tr>
+               <td align="right">Fecha Nacimiento:</td>
+               <td>
+                    <label for="Fecha_Nacimiento"></label>
+                    <input name="date" type="date" id="date" size="15"/>
+               </td>
+               </tr>
+               <tr>
+               <td align="right">Contraseña:</td>
+               <td>
+                    <label for="El_Password"></label>
+                    <input name="password" type="password" id="password" value=""/>
+               </td>
+               </tr>
+               <tr>
+                  <td>
+                      <input type="reset" name="limpiar" id="limpiar" value="Limpiar"/>
+                   </td>
+                   <td>
+                       <input type="submit" name="enviar" id="enviar" value="Enviar"/>  
+                   </td>
+                </tr>     
+        </table>
+    </form>
+    </body>
+</html>
