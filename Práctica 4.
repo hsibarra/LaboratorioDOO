@@ -1,0 +1,9 @@
+body{
+    background-image:url(http://www.divertaller.com/wp-content/uploads/2017/05/watercolor-bokeh-pastel-background-1.jpg);
+    background-color:black;
+    color:black;
+
+}
+form{
+    font: oblique bold 120%;
+}
